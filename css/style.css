@@ -20,6 +20,9 @@ header{
     align-items: center;
     justify-content: center;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .left_header{
     background-color: transparent;
