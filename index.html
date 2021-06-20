@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <!-- <link rel="stylesheet" href="./css/style1.css"> -->
 </head>
-<body>
+<body id="ls1">
     <div class="bg"></div>
     <header>
         <div class="left_header">
@@ -32,6 +31,46 @@
             </ul>
         </div>
 </header>
+<section class="category" id="ls2">
+    <ul>
+        <li> <a href="./product-gallery.html">Seeds</a> 
+        </li>
+        <li>
+           <a href="./product-gallery.html">Fertilizers</a> 
+        </li>
+        <li>
+            <a href="./product-gallery.html">Pesticides</a> 
+        </li>
+        <li>
+            <a href="./product-gallery.html">Crops</a>    
+        </li>
+        <li>
+            <a href="./product-gallery.html">Fruits</a>
+        </li>
+        <li>
+            <a href="./product-gallery.html">Vegitables</a>
+        </li>
+       
+    </ul>
+</section>
+<!-- <script>
+    let ls1=document.getElementById("ls1");
+    let ls2=document.getElementById("ls2");
+    let scroll_save=1;
+    ls1.onscroll = function(){
+        if(scroll_save > 0 ){
+            ls2.style.display='block';
+            console.log("block");
+            console.log(scroll_save);
+            scroll_save--;
+        }else{
+        console.log("hii");
+        ls2.style.display='none';
+        scroll_save++;
+        }
+        
+    }
+</script> -->
 <section class="s1">
     <span class="q">
         Quality at the lowest price
@@ -43,10 +82,9 @@
 </section>
 <div class="last-second">
     <div class="last-second-left">
-        <p>We are a community of 10,000 teachers nationwide, and over 100,000 toolkit users across the globe.</p>
+        <p style="margin-top:0 ;">“In carrying out e-commerce, the most important thing is to keep doing what you are doing right now with passion, to keep it up.”</p>
     </div>
     <div class="last-second-right">
-        <div></div>
     </div>
 </div>
 <div style="background-color: white;">
@@ -108,7 +146,6 @@
             </div>
         </div>
     </section>
-    <section class="s">
     <div style="margin:3% 12%;"><p style="font-size: larger;">Deals of the Day</p></div>
     <div class="s3" id ="dod">
     <div class="product_card">
@@ -282,7 +319,7 @@
     </div>
 </div>
 <div style="width: 100%;display: block;"onclick= "view()">
-    <button  style="margin:  0% 43%;width: 150px; height: 40px; background-color: white; border-radius: 5px;border:1px solid black;" >View More</button>
+    <button  style="margin:  2% 43%;width: 150px; height: 40px; background-color: white; border-radius: 5px;border:1px solid black;" >View More</button>
 </div>
 </div>
 </section>
@@ -302,5 +339,16 @@
         }
     }
 </script>
+<div style="background-color: white;">
+    <section class="s4">
+        <div style="width: 100%;"><p style="font-size: larger;">Shop by Crop</p></div>
+    <section class="catagory_gallery">
+             
+        <div class="catagory_card">
+            <div style="background-image: url('./images/1588440234571-rasi-magna-farmkart-image-1.jpg');height: 80px;" class="image"></div>
+            <p><a href="./product-gallery.html">Seeds</a></p>
+        </div>      
+    </section>
+</div>
 </body>
 </html>
