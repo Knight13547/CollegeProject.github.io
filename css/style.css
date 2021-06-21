@@ -34,6 +34,9 @@ header{
     align-items: center;
     width: 540px;
 }
+.left_header a{
+    margin-left: 5%;
+}
 .img1{
     background-image: url('../images/template-svg.svg');
     background-position:center;
@@ -41,7 +44,7 @@ header{
     background-repeat: no-repeat;
     width: 120px;
     height: 28px;
-    margin: auto 5%;
+    margin: auto;
 }
 .left_header input{
     /* margin: auto; */
@@ -327,4 +330,51 @@ height: 326px;
 .catagory_card p a{
     text-decoration: none;
     color: black;
+}
+.ls2{
+    color: gray;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    /* height: 456px; */
+    width: 360px;
+    /* border: 2px solid green; */
+    box-shadow: 0 0 4px 0 black;
+    padding: 3%;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9%;
+    padding-top: 0%;
+}
+.ls2>div{
+    border: 1px solid gray;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+}
+.ls2>div>p{
+    /* height: 100%; */
+    font-size: large;
+    margin: auto 10px;
+}
+.ls2 div input{
+    font-size: large;
+    border: none;
+    outline-style: none;
+}
+.ls2 a{
+    text-decoration: none;
+    color: gray;
+}
+.bt1{
+    height: 45px;
+    width: 100%;
+    border-radius: 30px;
+    /* border: solid green; */
+    border: none;
+    background-color: #342628;
+    color: white;
+    font-size: large;
 }
