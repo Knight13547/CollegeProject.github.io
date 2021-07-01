@@ -1,3 +1,4 @@
+@charset "ISO-8859-1";
 body{
     margin: auto;
     padding: 0;
@@ -45,6 +46,9 @@ header{
     width: 120px;
     height: 28px;
     margin: auto;
+}
+.left_header form{
+	    margin-left: 10px;
 }
 .left_header input{
     /* margin: auto; */
@@ -108,6 +112,20 @@ font-size: large;
     display: inline;
     color: white;
 }
+.basket .cart_counter{
+    background-color: red;
+    font-size: smaller;
+    border: 2px solid red;
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
 .s1{
     /* border: 2px solid white; */
     margin: 9%;
@@ -119,12 +137,12 @@ font-size: large;
 
 .q{
     /* display: inline; */
-    background-color: #ffffffcc;
+background-color: #ffffff98;
     color:#080846;
     font-weight: bold;
     font-size: xx-large;
     padding: 1%;
-    width: 360px;
+    width: 580px;
 
 }
 .registration{
@@ -203,7 +221,7 @@ height: 326px;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 49px;
-    column-gap: 49px;
+    column-gap: 74px;
 }
 .product-card{
     width: 140px;
@@ -212,11 +230,12 @@ height: 326px;
     display: grid;
     grid-template-rows: 80% 10%;
     box-shadow:  0 0 4px 0 gray;
-    padding: 1%;
+    padding: 10px;
 }
 .product-image{
     background-size: contain;
     background-position: center;
+    background-repeat:no-repeat;
 }
 .product-card>p{
     display: flex;
@@ -383,29 +402,8 @@ height: 326px;
     width: 100%;
     height: 72vh;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 15% 70% 15%;
     margin-top: 8%;
-}
-.aside-left{
-    /* border: 2px solid black; */
-    padding-top: 10%;
-    padding-left: 40%;
-}
-.range{
-    padding: 30px;
-    box-shadow: 0 0 4px 0 ;
-}
-#slider{
-    display: block;
-    margin: auto;
-    width: 100%;
-    margin-top: 30px;
-}
-/* input[type="range"]{
-    color: white;
-} */
-.slider-max{
-    float: right;
 }
 .product-group-title{
     
@@ -422,7 +420,7 @@ height: 326px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 25px;
+    column-gap: 47px;
     row-gap: 25px;
 }
 /* cart css */
@@ -462,7 +460,7 @@ height: 326px;
     /* border: 2px solid blue; */
     box-shadow: 0 0 4px ;
     height: 80%;
-    margin: 13% 0;
+    margin: 2% 0;
     padding: 7%;
     padding-top: 15px;
 
@@ -591,4 +589,59 @@ height: 326px;
     border-radius: 20px;
     padding: 6px;
     width: 130px;
+}
+.bill_page{
+    /* border: 2px solid; */
+    width: 80%;
+    /* height:100vh; */
+    margin: auto;
+    margin-top: 6%;
+    font-size: x-large;
+}
+.bill_main{
+    width: 90%;
+    margin: auto;
+}
+.doi{
+    /* text-align: center; */
+    font-size: x-large;
+}
+.invoice{
+    text-align: center;
+    font-size: xx-large;
+}
+.billed_to{
+    padding-right: 63%;
+}
+.bill_components{    
+background-color: #ecf1b8;
+padding: 0% 5%;
+}
+.bill_components p{
+    margin: 10px;
+}
+.bill_heading{
+    display: grid;
+    grid-template-columns: 55% 15% 15% 15%;
+    font-size: large;
+}
+.total{
+    width: 300px;
+    height: 60px;
+    border: 2px solid;
+    float: right;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+    background-color: #342628;
+    margin: 2% 0;
+}
+.total_heading{
+    font-size: large;
+    display: inline;
+    margin: auto;
+}
+.total_amount{
+    font-size: xx-large;
+    margin: auto;
 }
