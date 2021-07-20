@@ -645,3 +645,160 @@ padding: 0% 5%;
     font-size: xx-large;
     margin: auto;
 }
+.ls{
+    margin-top: 70px;
+    height: 400px;
+}
+.lsr {
+    background-image: url('../images/walling-XLqiL-rz4V8-unsplash.jpg');
+    background-size: cover;
+}
+.sec1{
+    margin-top: 50px;
+text-align: center;
+margin-bottom: 50px;
+}
+.sec1 h1{
+margin: 2% 15%;
+font-size: 61px;
+}
+.sec1 p{
+margin: 3% auto;
+font-size: 22px
+}
+.sec2{
+margin-bottom: 50px;
+height: auto;
+
+}
+.sec2 img{
+width: 100%;
+height: 100vh;
+background-image: url('../images/patrick-amoy-6DfEbkqsTiA-unsplash.jpg');
+background-position: center;
+background-size: cover;
+
+/* background-size: cover; */
+}
+.img_overlay{
+
+background-color: white;
+margin: auto;
+margin-top: -17%;
+padding: 3%;
+position: relative;
+width: 860px;
+/* z-index: 9; */
+}
+.img_overlay h1{
+margin: 0%;
+text-align: center;
+font-size: 50px;
+font-weight: 10px;
+}
+.img_overlay p{
+text-align: left;
+font-size: 24px;
+font-weight: 10px;
+word-spacing: 0.5px;
+}
+.img_overlay button{
+display: block;
+margin: left;
+background-color: transparent;
+border: 2px solid #273c48;
+padding: 2% 4%;
+}
+.img_overlay button:hover{
+background-color: #273c48;
+color: white;
+}
+footer{
+background-color: #342628;
+color: white;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+footer p{
+display: inline-block;
+}
+.f13{
+display: flex;
+flex-direction: row;
+column-gap: 10px;
+height: 10%;
+margin-left: auto;
+margin-right:10%;
+}
+.f13 img{
+height: 40px;
+width: 40px;
+border: 1px solid black;
+/* padding: 10%; */
+}
+.f13 a{
+background-color: white;
+border-radius: 100%;
+margin-top: 5px;
+}
+.facebook{
+background-image:url("../images/59d54d920116ac0001969f0c_facebook.png");
+height: 40px;
+width: 40px;
+background-repeat: no-repeat;
+background-size: 11px;
+background-position:50% 50%;
+border: 1px solid black;
+
+border-right: none;
+}
+.twitter{
+background-image:url("../images/59d54d90965779000179d122_twitter.png");
+height: 40px;
+width: 40px;
+background-repeat: no-repeat;
+background-size: 21px;
+background-position:50% 50%;
+border: 1px solid black;
+border-right: none;
+}
+
+.inst{
+background-image:url("../images/59d54d917ed19800019cf004_insta.png");
+height: 40px;
+width: 40px;
+background-repeat: no-repeat;
+background-size: 17px;
+background-position:50% 50%;
+border: 1px solid black;
+}
+.facebook:hover{
+background-color: #788402;
+background-image:url("../images/facebook-64.png");
+background-repeat: no-repeat;
+background-size: 21px;
+background-position:center;
+/* color: white; */
+/* filter: grayscale(1.9) invert(1); */
+
+}
+.twitter:hover{
+background-color: #788402;
+background-image:url("../images/twitter-64.png");
+background-repeat: no-repeat;
+background-size: 18px;
+background-position:center;
+/* color: white; */
+/* filter: grayscale(1.9) invert(1); */
+
+}
+.inst:hover{
+background-color: #788402;
+background-image:url("../images/toppng.com-https-www-instagram-comovermountaincycles-new-instagram-icon-white-351x351.png");
+background-repeat: no-repeat;
+background-size: 17px;
+background-position:center;
+/* color: white; */
+/* filter: grayscale(1.9) invert(1); */
+
+}
