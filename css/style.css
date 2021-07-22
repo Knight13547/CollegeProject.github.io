@@ -711,6 +711,7 @@ background-color: #342628;
 color: white;
 }
 footer{
+    margin-top: 30px;
 background-color: #342628;
 color: white;
 display: grid;
