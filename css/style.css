@@ -49,6 +49,7 @@ header{
 }
 .left_header form{
 	    margin-left: 10px;
+        margin-bottom: 0;
 }
 .left_header input{
     /* margin: auto; */
@@ -328,10 +329,6 @@ height: 326px;
     column-gap: 20px;
     padding: 5px 4px;
     align-items: center;
-}
-.catagory_gallery::-webkit-scrollbar{
-    /* background-color: transparent; */
-    display: none;
 }
 .catagory_card{
     /* cursor: grab; */
