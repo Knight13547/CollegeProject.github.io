@@ -645,9 +645,8 @@ padding: 0% 5%;
     font-size: xx-large;
     margin: auto;
 }
-<<<<<<< HEAD
 .ls{
-    margin-top: 70px;
+    margin-top: 58px;
     height: 400px;
 }
 .lsr {
@@ -711,7 +710,7 @@ border: 2px solid #273c48;
 padding: 2% 4%;
 }
 .img_overlay button:hover{
-background-color: #273c48;
+background-color: #342628;
 color: white;
 }
 footer{
@@ -803,5 +802,3 @@ background-position:center;
 /* filter: grayscale(1.9) invert(1); */
 
 }
-=======
->>>>>>> 18c7a7f70b2a3f51343fd98dbcbf75abb4c763cf
