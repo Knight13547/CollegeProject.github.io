@@ -28,6 +28,7 @@ header{
     left: 0;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 .left_header{
     background-color: transparent;
@@ -685,7 +686,6 @@ margin-top: -17%;
 padding: 3%;
 position: relative;
 width: 860px;
-/* z-index: 9; */
 }
 .img_overlay h1{
 margin: 0%;
@@ -716,6 +716,7 @@ background-color: #342628;
 color: white;
 display: grid;
 grid-template-columns: 1fr 1fr;
+
 }
 footer p{
 display: inline-block;
