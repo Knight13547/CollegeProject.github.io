@@ -1,0 +1,16 @@
+*{
+    /* display: none; */
+}
+
+.ns_ul {
+    display: none;
+}
+.menu{
+    display: block;
+}
+.s4{
+    width: 100%;
+}
+.s3{
+    width: 99%;
+}

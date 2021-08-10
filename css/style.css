@@ -67,14 +67,14 @@ header{
     align-items: center;
     justify-content: center;
 }
-.right_header ul {
+.ns_ul {
     display: flex;
     flex-direction: row;
     text-decoration: none;   
     margin: 0;
     align-items: center;
 }
-.right_header ul li{
+.ns_ul  li{
     list-style: none; 
     margin-left: 20px;
 }
@@ -88,7 +88,7 @@ select{
 #language option{
     background-color:black;
 }
-.right_header ul li a{
+.ns_ul  li a{
     text-decoration: none;
     color: white;
 font-size: large;
@@ -127,6 +127,37 @@ font-size: large;
     position: absolute;
     right: -5px;
     top: -5px;
+}
+.menu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
+
+.menu_icon{
+height: 5px;
+background-color: white;
+margin: 6px 0;
+margin-left: auto;
+background-color: #788402;
+}
+.menu_elements ul{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    /* text-align: unset; */
+    align-items: flex-end;
+    list-style:none;
+    background-color: #788402;
+    border: 2px solid;
+    padding: 0px;
+}
+.menu_elements ul li{
+    margin-left: 0;
+    border: 2px solid;
+    width: 100%;
+    height: 50px;
 }
 .s1{
     /* border: 2px solid white; */
