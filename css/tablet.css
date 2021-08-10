@@ -1,0 +1,20 @@
+*{
+    /* display:none; */
+}
+.s3{
+    /* flex-wrap: nowrap; */
+    display: grid;
+    grid-auto-flow: column;
+    overflow:scroll;
+    height: 300px;
+    width: 100%;
+}
+.s3::-webkit-scrollbar{
+    display: contents;
+}
+.buto{
+    display: none;
+}
+.section_title{
+    text-align: center;
+}
