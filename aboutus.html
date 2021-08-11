@@ -7,13 +7,17 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Farmzon</title>
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 1165px)" href="css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 888px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/tablet2.css">
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="css/mobile.css">
 </head>
 <body>
     <header>
         <div class="left_header">
             <a href="./index.html"><div class="img1"></div></a>
             <form >
-            <input type="text" name="search" id="" list="search" placeholder="      Search for product" >
+            <input type="text" name="search" id="" list="search" placeholder="      Search for product">
             <datalist id ="search">	
 			<option value="Crops1">
            		
@@ -221,15 +225,14 @@
             </form>
         </div>
         <div class="right_header">
-            <ul>               
+            <ul class="ns_ul">               
                 <li><a href="./login.html">Login</a></li>
-                 <li><a href="./aboutus.html">About Us</a></li>
+                 <!-- <li><a href="./aboutus.html">About Us</a></li> -->
                 <li><a href='./product-gallery.html?type=12'>Marketplace</a></li>
                 <li><a href="./product-registration.html">Be a Merchant</a></li>
                <li><a href="./cart.html">
                    <div class="basket">
                        <div style="display: flex;">
-                        <img src="./images/cart.svg" alt="">
                         <h5>Basket</h5>
                         <div class="cart_counter">
                         1
@@ -239,9 +242,37 @@
                     </div>
                 </div>
             </a>
-            </li>         
-            </ul>
+            </li> 
+        </ul>
+            <div class="menu" id="menu" >
+                <div style="width: 35px;margin-left: auto;" onclick="ham()">
+                    <div class="menu_icon"></div>
+                    <div class="menu_icon"></div>
+                    <div class="menu_icon"></div>
+                </div>
+                <div class="menu_elements" id="menu_elements">
+                    <ul>
+                        <li>Login</li>
+                        <li>Marketplace</li>
+                        <li>Be a Merchant</li>
+                        <li>Be a Merchant</li>
+                    </ul>
+                </div>
+            </div>        
+            <script>
+                let x=document.getElementById("menu_elements");
+               function ham(){
+                   if(x.style.display=="none"){
+                x.style.display="block";
+            }
+            else{
+                x.style.display="none";
+                
+                }
+            }
+            </script>
         </div>
+
 </header>
         <div class="last-second ls">
         <!-- <a href="mailto:webmaster@example.com">Jon Doe</a> -->

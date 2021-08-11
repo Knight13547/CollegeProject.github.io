@@ -140,19 +140,19 @@ height: 5px;
 background-color: white;
 margin: 6px 0;
 margin-left: auto;
-background-color: #788402;
+background-color: white;
 }
 .menu_elements ul{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 100vw;
     align-items: flex-end;
     list-style: none;
-    background-color: #788402;
+    background-color: #e5d9c1;
     border: 2px solid;
     padding: 0px;
 }
-.menu_elements ul li{
+.menu_elements ul a{
     margin-left: 0;
     border: 2px solid;
     width: 100%;
@@ -162,6 +162,11 @@ background-color: #788402;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.menu_elements ul li a{
+
 }
 .s1{
     /* border: 2px solid white; */

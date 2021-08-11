@@ -1,5 +1,11 @@
-*{
-    /* display:none; */
+
+.ns_ul {
+    display: none;
+}
+.menu{
+    display: block;
+}.menu_elements{
+    display:none;
 }
 .s3{
     /* flex-wrap: nowrap; */
