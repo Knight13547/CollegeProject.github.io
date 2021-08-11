@@ -2,6 +2,9 @@
     margin-top: 25%;
 
 }
+.ls2{
+    margin-top: 30%;
+}
 .s1{
      margin-top: 30%;
 }
@@ -17,4 +20,32 @@
 .last-second-left>p{
     font-size: 25px;
     margin: 2%;
+}
+aside{
+    display: none;
+}
+.pro-sec1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+}
+.p_div{
+    display: flex;
+    flex-direction: column;
+}
+.product_card {
+    width: auto;
+}
+.product_card button{
+    width: 160px;
+}
+.aside-right{
+    overflow-x: scroll;
+    column-gap: 10px;
+}
+.ls{
+    margin-top: 30%;
+}
+.sec2{
+    display: none;
 }
