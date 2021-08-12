@@ -3,7 +3,7 @@
     display: none;
 }
 .menu{
-    display: block;
+    display: flex;
     width: auto;
     /* height: 100px; */
 }.menu_elements{
@@ -28,4 +28,7 @@
 }
 .product-image-big{
     height: 30vh;
+}
+.cart_ico{
+    display:block
 }

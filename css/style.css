@@ -128,13 +128,16 @@ font-size: large;
     right: -5px;
     top: -5px;
 }
+.cart_ico{
+    display: none;
+}
 .menu{
     position: absolute;
     right: 0px;
     top: 0px;
     display: none;
     /* width: 90px; */
-    display: flex;
+    display: none;
     flex-direction: row;
 }
 
