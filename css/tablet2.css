@@ -10,3 +10,6 @@
     flex-wrap: wrap;
     row-gap: 20px;
 }
+.product-image-big{
+    height: 30vh;
+}

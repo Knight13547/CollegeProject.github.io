@@ -133,6 +133,9 @@ font-size: large;
     right: 0px;
     top: 0px;
     display: none;
+    /* width: 90px; */
+    display: flex;
+    flex-direction: row;
 }
 
 .menu_icon{
@@ -164,9 +167,8 @@ background-color: white;
     align-items: center;
     text-decoration: none;
     color: black;
-}
-.menu_elements ul li a{
-
+    border-left: none;
+    border-bottom: none;
 }
 .s1{
     /* border: 2px solid white; */
@@ -591,6 +593,7 @@ height: 326px;
     height: 65vh;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .product-info{
     /* border: 2px solid green; */
@@ -739,7 +742,6 @@ background-color: #342628;
 color: white;
 display: grid;
 grid-template-columns: 1fr 1fr;
-
 }
 footer p{
 display: inline-block;

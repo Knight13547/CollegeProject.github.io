@@ -4,6 +4,8 @@
 }
 .menu{
     display: block;
+    width: auto;
+    /* height: 100px; */
 }.menu_elements{
     display:none;
 }
@@ -23,4 +25,7 @@
 }
 .section_title{
     text-align: center;
+}
+.product-image-big{
+    height: 30vh;
 }
